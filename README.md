@@ -2,7 +2,7 @@
 Simple program coded for Attiny85 to control the speed of the cooling fan inside a QSC audio amplifier.
 
 ## Overview
-This project is an Arduino-based that I made to control the speed of the cooling fan inside a QSC audio amplifier. It uses a OneWire temperature sensor.
+This project is an Arduino-based that I made to control the speed of the cooling fan inside a QSC audio amplifier. It uses two OneWire temperature sensors. There is no PID control, just a simple ramp.
 
 ## Features
 - Basic automation loops and logic  
